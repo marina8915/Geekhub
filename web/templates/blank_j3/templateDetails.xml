@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template">
+        <name>blank_j3</name>
+        <creationDate>2012-10-03</creationDate>
+        <author>Saity74</author>
+        <authorEmail>info@saity74.ru</authorEmail>
+        <authorUrl>http://saity74.ru</authorUrl>
+        <copyright>Saity74 Ltd.</copyright>
+        <license>GNU/GPL 2 or Later</license>
+        <version>1.0.0</version>
+        <description>TMPL_JOOMLA3_DESC</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <filename>favicon.ico</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+                <folder>html</folder>
+                <folder>js</folder>
+                 <folder>language</folder>
+        </files>
+        <positions>
+                <position>head</position>
+                <position>mainmenu</position>
+                <position>social</position>
+                <position>user1</position>
+                <position>user2</position>
+                <position>user3</position>
+                <position>registration</position>
+                <position>footer</position>
+        </positions>
+        <languages folder="language">
+			<language tag="ru-RU">ru-RU/ru-RU.tpl_blank_j3.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.tpl_blank_j3.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.tpl_blank_j3.ini</language>
+			<language tag="en-GB">en-GB/en-GB.tpl_blank_j3.sys.ini</language>
+		</languages>
+</extension>
